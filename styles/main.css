@@ -1890,10 +1890,10 @@ blockquote:before {
   font-weight: bold;
 }
 body {
-      background-color: #eee;
+      background-color: #212529;
     }
     .nav-toggle .line {
-      background-color: #eee !important;
+      background-color: #212529 !important;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -1903,67 +1903,73 @@ body {
         width: 960px;
         margin: 0 auto;
       }
-    body {
-      color: #555;
+    @font-face {
+      font-family: '站酷快乐体2016修订版';
+      src: url('/media/fonts/站酷快乐体2016修订版.ttf');
+    }
+    * {
+        font-family: '站酷快乐体2016修订版';
+    }body {
+      color: #212529;
     }
     .next-md-body {
-      color: #555;
+      color: #212529;
     }
     .next-md-body h1, .next-md-body h2 {
-      border-bottom-color: #555;
+      border-bottom-color: #212529;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #eee;
+      background: #1971c2;
     }h1, h2, h3, h4, h5, h6 {
-      color: #555;
+      color: #212529;
     }
     
     .archive-timeline-title::before {
-      background-color: #555;
+      background-color: #212529;
     }
     
     .post-title-link::before {
-      background-color: #555;
+      background-color: #212529;
     }
     
     .node-title::before {
-      background-color: #555;
+      background-color: #212529;
     }.bg-color {
-      background-color: #fff;
+      background-color: #f8f9fa;
     }a {
-      color: #555;
+      color: #1c7ed6;
     }
     
     .next-md-body a, .friends-box a  {
-      color: #555;
-      border-bottom: 1px solid #555;
+      color: #1c7ed6;
+      border-bottom: 1px solid #1c7ed6;
     }a:hover {
-      color: #222;
+      color: #1c7ed6;
     }
     
     .archive-timeline-box .tag-node:hover::before {
-      background-color: #222;
+      background-color: #1c7ed6;
     }
     
     .markdownIt-TOC a:hover {
-      color: #222;
-      border-bottom-color: #222;
+      color: #1c7ed6;
+      border-bottom-color: #1c7ed6;
     }
 
     .next-md-body a:hover, .friends-box a:hover {
-      color: #222;
-      border-bottom-color: #222;
+      color: #1c7ed6;
+      border-bottom-color: #1c7ed6;
     }
       .nav-item a {
-        color:  #555;
+        color:  #212529;
       }.nav-item a:hover {
-        color: #222;
+        color: #495057;
       }.nav-item-active {
-      background: #f9f9f9;
+      background: #ced4da;
     }
 
     .nav-item:hover {
-      background: #f9f9f9;
+      background: #ced4da;
       color: rgba(0, 0, 0, 0.98);
     }.markdownIt-TOC a {
       color: #eee;
@@ -1989,21 +1995,53 @@ body {
     .active-hidden > a {
       color: #fc6423;
       border-bottom-color: #fc6423;
-    }
+    }.site-nav, .sidebar-wrapper, .section-box, .sidebar-box, .site-nav, .blog-header {
+        opacity: 0.9;
+      }.site-meta {
+        background: transparent !important;
+        background-image: url(\media\images\custom-headerImg.png) !important;
+      }
       .site-meta {
-        background: #000 !important;
+        background: #212529 !important;
       }
       .head-top-line {
-        background: #000 !important;
-      }
-    .brand {
-      background: #000;
+        background: #212529 !important;
+      }.sidebar {
+      background-image: url(\media\images\custom-siteMetaImg.png) !important;
     }
-    .main-title {
-      color: #FFF;
+    .sidebar-item-box a {
+      color: #eee;
+    }
+    .friends-title {
+      color: #eee;
+      border-top: 1px dotted #fff;
+    }
+    .friends-box a {
+      color: #eee;
+      border-bottom: 1px solid #eee;
+    }
+    .toc-wrapper a {
+      color: #eee;
+      border-bottom: 1px solid #eee;
+    }
+    .sidebar-title-item {
+      color: #eee;
+    }
+    
+    .brand {
+      background: #212529;
+    }
+    
+      .brand {
+        font-weight: bold;
+        transform: scale([4,4]);
+      }.main-title {
+      color: #212529;
     }
     .mist .site-title i {
-      background: #FFF;
+      background: #212529;
+    }.box-shadow-wrapper {
+      padding: 10px;
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }
