@@ -191,7 +191,7 @@ blockquote:before {
   text-align: center;
 }
 .sidebar-item-box + .sidebar-item-box {
-  border-left: 1px solid #efefef;
+  border-left: 1px solid black;
 }
 .side-item-stat {
   display: flex;
@@ -2010,7 +2010,7 @@ body {
       background-image: url(\media\images\custom-siteMetaImg.png) !important;
     }
     .sidebar-item-box a {
-      color: #eee;
+      color: black;
     }
     .friends-title {
       color: #eee;
